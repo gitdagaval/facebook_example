@@ -9,10 +9,10 @@
 # This should only be necessary until the final version of the new profile is released.
 
 development:
-  api_key: 
-  secret_key: 
-  canvas_page_name:
-  callback_url:
+  api_key: b322c39bf88b6c8124695324a3e2e1e8
+  secret_key: 2f832b8ba36869d87b43609752648400
+  canvas_page_name: fake_application
+  callback_url: http://ec2-174-129-121-1.compute-1.amazonaws.com:3000/
   pretty_errors: true
   set_asset_host_to_callback_url: true
   tunnel:
