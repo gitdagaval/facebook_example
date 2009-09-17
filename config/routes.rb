@@ -38,6 +38,13 @@ ActionController::Routing::Routes.draw do |map|
   # Install the default routes as the lowest priority.
   # Note: These default routes make all actions in every controller accessible via GET requests. You should
   # consider removing or commenting them out if you're using named routes and resources.
+
+
+  # Tell Rails to make invitations into a resource
+  map.resources :invitations
+  # Use our new method as the default page
+  map.root :controller=>"invitations" , :action=>"new"
+
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
 end
