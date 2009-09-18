@@ -4,9 +4,10 @@
    method="POST"
    invite="true"
    type="Karate Poke"
-   content="Attack your friends. Install Karate Poke now." >
+   content="Attack your friends. Install Karate Poke now.<%=h "<fb:req-choice url='http://apps.facebook.com/appurl/' label='OK'"%>" >
     <fb:multi-friend-selector
       showborder="false"
       actiontext="Invite your friends to use Karate Poke." />
+
   </fb:request-form>
 </fb:fbml>
