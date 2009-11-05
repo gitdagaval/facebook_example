@@ -6,7 +6,7 @@ development:
   reconect: false
   database: facebook_example_development
   username: root
-  password: root
+  password:
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
